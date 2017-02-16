@@ -38,4 +38,6 @@ meatBalls                0060FEF8
 &meatBalls               0060FEF8
 
 *meatBalls               7
+
+*(meatBalls+2)           43
 **/
