@@ -11,7 +11,10 @@ int main(){
     printf("%p \t %s \t %d \n", pTuna, "tuna", tuna);
     printf("%p \t %s \t %d \n", &pTuna, "pTuna", pTuna);
 
+    *pTuna = 71;
 
+    printf("*pTuna: %d \n" , *pTuna);
+    printf("tuna: %d \n" , tuna);
     return 0;
 }
 
@@ -22,5 +25,6 @@ int main(){
 Address          Name    Value
 0060FF0C         tuna    19
 0060FF08         pTuna   6356748
-
+*pTuna: 71
+tuna: 71
 **/
