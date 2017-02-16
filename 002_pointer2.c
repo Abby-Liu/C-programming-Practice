@@ -18,6 +18,7 @@ int main(){
     printf("\n&meatBalls \t\t %p \n", &meatBalls);
     //Dereference
     printf("\n*meatBalls \t\t %d \n", *meatBalls);
+    printf("\n*(meatBalls+2) \t\t %d \n", *(meatBalls+2));
 
 
     return 0;
